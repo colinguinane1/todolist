@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Gamja+Flower&family=Montserrat:wght@100;400;700&family=Nunito:ital,wght@0,200;0,300;0,400;1,200&family=Protest+Strike&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.hide{
+    display: none;
+}
+
+.alert{
+    color: red;
+}
+
+.inputs{
+    display: flex;
+}
+
+.container li{
+    list-style: none;
+}
+
+body{
+    background-color: rgb(50,50,50);
+    color: #fff;
+    font-family: Montserrat;
+}
+.container{
+    background-color: rgba(255,255,255,0.1);
+    padding: 20px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    border-radius: 20px;
+}
+.inputs button {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.inputs button:hover {
+    padding: 13px;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+}
